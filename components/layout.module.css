@@ -1,0 +1,28 @@
+.container {
+  padding: 0 1rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+  font-size: 7rem;
+  margin-right: 1%;
+  background-color: #b4bf5e;
+  border-radius: 50%;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+
+  margin: auto;
+  display: block;
+  min-width: 144px;
+  max-width: 144px;
+  min-height: 144px;
+  max-height: 144px;
+}

@@ -1,0 +1,49 @@
+/* Color Theme Swatches in Hex */
+.Naturen-1-hex {
+  color: #34401a;
+}
+.Naturen-2-hex {
+  color: #64732f;
+}
+.Naturen-3-hex {
+  color: #a2a398;
+}
+.Naturen-4-hex {
+  color: #b4bf5e;
+}
+.Naturen-5-hex {
+  color: #252617;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.3;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #64732f;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #34401a;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+h3 {
+  text-align: center;
+  color: #b4bf5e;
+}

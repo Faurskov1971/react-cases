@@ -1,0 +1,157 @@
+/* Color Theme Swatches in Hex */
+.Naturen-1-hex {
+  color: #34401a;
+}
+.Naturen-2-hex {
+  color: #64732f;
+}
+.Naturen-3-hex {
+  color: #a2a398;
+}
+.Naturen-4-hex {
+  color: #b4bf5e;
+}
+.Naturen-5-hex {
+  color: #252617;
+}
+.heading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+  border-style: solid !important;
+  border-width: thin !important;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+.lightText {
+  color: #64732f;
+}
+.button {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  text-align: left;
+  border-radius: 4px;
+  border-width: 0;
+  background-color: #b4bf5e;
+  color: #64732f;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+}
+.buttonAnswer {
+  width: 100%;
+  font-size: 0.7rem;
+  padding: 4px 5px;
+  text-align: left !important;
+  border-radius: 4px;
+  border-width: 0;
+  background-color: #64732f;
+  color: #34401a;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.buttonPoint {
+  width: 100%;
+  font-size: 3rem;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  text-align: left;
+  border-radius: 4px;
+  border-width: 0;
+  color: #34401a;
+  background-color: #64732f;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+}
+.hideQuestion {
+  display: none;
+}
+.pointText {
+  font-size: 2rem;
+  padding: 0.5rem;
+  color: #34401a;
+}
+.questionText {
+  font-size: 2vw;
+  padding: 0.5rem;
+  color: #252617;
+}
+
+.inactive {
+  opacity: 0.7;
+}
+.remove {
+  display: none;
+}
+.category {
+  width: 23%;
+  min-width: 200px;
+  margin-right: 2%;
+  float: left;
+  padding: 1rem;
+  background-color: #64732f;
+  margin-bottom: 15px;
+  border-style: thin;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #34401a;
+}
+.right button {
+  background-color: #009900;
+}
+.wrong {
+  background-color: #990000;
+}
+.paragraph {
+  max-width: 700px;
+  margin: auto;
+}
