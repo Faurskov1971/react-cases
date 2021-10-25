@@ -1,5 +1,3 @@
-import Link from 'next/link';
-import Head from 'next/head';
 import utilStyles from '../../styles/utils.module.css'
 
 

@@ -51,19 +51,19 @@
           answer_array: ["CSS Components and global styles","Styled components","Sass","Less"]
         },
         {
-          question: "faurskov.com is",
+          question: "faurskov.com workflow is...",
           point: 300,
           info: "HOC",
-          answer_array: ["Layout","The quiz","Er hardcodet i komponenten Info","Kommer fra NoSQL-database"]
+          answer_array: ["DPS - Develop, Preview and Ship","PBR - Plan, Build and Run","MVP - Minimum Viable Product","DRY - Don't Repeat Yourself"]
         },
         {
-          question: "Info-komponenten, som viser et pop-up-vindue, når brugeren markerer 'Læs mere...'-knappen, er...",
+          question: "next/image is an Image component that is...",
           point: 400,
-          info: "Rodal er et npm-bibliotek med mange features. Eksempelvis kan jeg vælge mange forskellige animationsformer, når vinduet vises. De mange biblioteker til rådighed er en af Reacts store fordele.",
-          answer_array: ["Et npm-bibliotek, som hedder Rodal","En indbygget feature i React","En feature i JQuery","En feature, jeg selv har udviklet fra bunden"]
+          info: "Next.js is helping with a lot of stuff",
+          answer_array: ["helps with all theese things","ensuring your image is responsive on different screen sizes","optimizing your images with a third-party tool or library","only loading images when they enter the viewport"]
         },
         {
-          question: "Denne quiz viser, at jeg kan udvikle i React, men hvilket JavaScript-bibliotek er mest efterspurgt på arbejdsmarkedet lige nu?",
+          question: "WHich script helps me debug at compile time?",
           point: 500,
           info: "Ifølge en undersøgelse fra https://da.bccrwp.org/ af 60.000 jobopslag er React klart mest efterspurgt, mens Angular indtager pladsen som nummer to.",
           answer_array: ["React","answer", "Angular","Vue.js","JQuery"]
@@ -106,34 +106,34 @@
       ]
     },
     {
-      category: "Behind Brian",
+      category: "Why",
       question_array: [
         {
-          question: "Hvad gør lørdag den 20. februar 2021 speciel for Brian",
+          question: "Why use TypeScript?",
           point: 100,
-          info: "på rådhuset blev jeg gift med min kone Janni Iben.",
-          answer_array: ["Jeg blev gift!","Manchester United vandt!","Jeg vandt i lotto!","Min ældste datter blev konfirmeret!"]
+          info: "Strict Types are predictable!",
+          answer_array: ["helps with all theese things","Early spotted bugs","Fast refactoring","Optional static typing"]
         },
         {
-          question: "Hvad gør mandag den 22. februar speciel for Brian?",
+          question: "Why use React?",
           point: 200,
-          info: "Dejligt at jeg lige nåede at blive gift inden min fødselsdag :-)",
-          answer_array: ["Jeg fyldte 50 år","Det er min fødselsdag","Jeg løb mit første halvmaraton","4"]
+          info: "",
+          answer_array: ["The main purpose of React is to be fast, scalable, and simple.","It is typesafe","Its a framework that has it all!","You can trust Googles developers."]
         },
         {
-          question: "Hvor mange maratonløb har jeg løbet",
+          question: "Why use Next.js?",
           point: 300,
           info: "Jeg har løbet maraton i Paris, London, Berlin og Odense. Før jeg blev en glad løber, cyklede jeg en del og har cyklet Sjælland Rundt, Vettern Rundt og Aarhus-København.",
           answer_array: ["4","1","2","3"]
         },
         {
-          question: "Jeg solgte domænenavnet www.spil.nu i 2014. Hvad tror I, at jeg fik for det?",
+          question: "Why use CSS Components and global styles?",
           point: 400,
           info: "Pengene brugte jeg til at købe mig selv fri til at starte mit iværksætterprojekt med læringsspil til folkeskolen.",
           answer_array: ["400.000 kroner","17.000 og en iPhone","To uger i et sommerhus i Marbella","spilnu.dk fik domænenavnet gratis"]
         },
         {
-          question: "Hvor mange besøgende har mine læringsspil haft over tid?",
+          question: "Why hire Brian Faurskov as your frontend developer?",
           point: 500,
           info: "Jeg er stolt over, at så mange børn er blevet klogere ved at spille mine spil.",
           answer_array: ["2.500.000 brugere","1.500.000 brugere","500.000 brugere","4.000.000 brugere"]

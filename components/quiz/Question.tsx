@@ -1,7 +1,4 @@
-import Link from 'next/link';
-import Head from 'next/head';
 import Answer from './Answer';
-import Info from './Info';
 import utilStyles from '../../styles/utils.module.css'
 import { useState} from 'react';
 
