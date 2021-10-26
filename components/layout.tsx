@@ -4,7 +4,6 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import { FaHome } from 'react-icons/fa';
-
 const name = 'Brian Faurskov'
 export const siteTitle = 'My React journey...'
 

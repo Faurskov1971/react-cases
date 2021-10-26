@@ -47,11 +47,11 @@
         {
           question: "How is faurskov.com designed?",
           point: 200,
-          info: "So many ways to use CSS!",
+          info: "A build-in solution",
           answer_array: ["CSS Components and global styles","Styled components","Sass","Less"]
         },
         {
-          question: "faurskov.com workflow is...",
+          question: "My workflow with GitHub, Vercel and Git can be described as...",
           point: 300,
           info: "HOC",
           answer_array: ["DPS - Develop, Preview and Ship","PBR - Plan, Build and Run","MVP - Minimum Viable Product","DRY - Don't Repeat Yourself"]
@@ -63,10 +63,10 @@
           answer_array: ["helps with all theese things","ensuring your image is responsive on different screen sizes","optimizing your images with a third-party tool or library","only loading images when they enter the viewport"]
         },
         {
-          question: "WHich script helps me debug at compile time?",
+          question: "What helps me debug at compile time?",
           point: 500,
-          info: "Ifølge en undersøgelse fra https://da.bccrwp.org/ af 60.000 jobopslag er React klart mest efterspurgt, mens Angular indtager pladsen som nummer to.",
-          answer_array: ["React","answer", "Angular","Vue.js","JQuery"]
+          info: "",
+          answer_array: ["TypeScript","JavaScript", "C#",".NET"]
         }
       ]
     },
@@ -74,15 +74,15 @@
       category: "Solutions",
       question_array: [
         {
-          question: "TIl hvilken kunde udviklede jeg den digitale udgave af Sudoku, som blev et af de mest populære online-spil i Danmark det år?",
+          question: "I developed sudoku to this company",
           point: 100,
-          info: "Samarbejdet med TV2 varede i nogle år, og der kom mange andre spil til undervejs. Jeg lærte at reagere hurtigt, når TV2's mange brugere fandt fejl eller ønskede nye features.",
+          info: "One of the most played games in Denmark",
           answer_array: ["spil.tv2.dk","Danfoss","TDC","Grundfos"]
         },
         {
-          question: "Hvilken stor dansk virksomhed udviklede jeg julekalender til i en årrække?",
+          question: "I developed an interactive multilanguage christmas calender for this company",
           point: 200,
-          info: "Den interaktive julekalender skabte opmærksomhed om firmaets produkter. Danfoss' professionelle og dygtige medarbejdere var med til at gøre mig til en bedre udvikler med stort fokus på kvalitet.",
+          info: "I made the calender for 15 languages and in three years",
           answer_array: ["Danfoss","Finanssektorens Uddannelsescenter","TDC","Maersk Containere"]
         },
         {
@@ -92,9 +92,9 @@
           answer_array: ["Læringsspil på ni sprog","En ny og epokegørende betalingsløsning","Tøj til hunde","Et filosofisk univers til børnehavebørn"]
         },
         {
-          question: "Hvilket dansk firma blev min første store kunde? Et samarbejde, som strakte sig over en del år med flere store e-learningskurser, der blev indledt af selveste Henning Dyremose.",
+          question: "Developing e-learning for this company with Henning Dyremose as the CEO",
           point: 400,
-          info: "Igennem årene lavede jeg blandt andet miljøkampagne, arbejdsmiljøkursus, skriftlig kommunikation, leverandør-database og store kampagnesites. Samarbejdet lærte mig at være den teknisk ansvarlige i samarbejde med mange forskellige afdelinger i det landsdækkende firma.",
+          info: "I have developed severel solutions for this company over time",
           answer_array: ["TDC","Knauf A/S","Aarhus Stiftstidende","Egmont"]
         },
         {
@@ -130,7 +130,7 @@
           question: "Why use CSS Components and global styles?",
           point: 400,
           info: "There are so many ways to design in React",
-          answer_array: ["It has built-in support in Next","","",""]
+          answer_array: ["It has built-in support in Next and a good combination of global and local use of CSS","It is the only solution in Next.js","It is the only solution if you wan´t to use Sass","It is the fastest way"]
         },
         {
           question: "Why hire Brian Faurskov as your frontend developer?",

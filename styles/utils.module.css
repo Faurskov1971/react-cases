@@ -133,6 +133,7 @@
 .remove {
   display: none;
 }
+
 .category {
   width: 23%;
   min-width: 200px;
@@ -145,8 +146,18 @@
   border-radius: 10px;
   box-shadow: 2px 2px 4px #34401a;
 }
+@media screen and (max-width: 800px) {
+  .category {
+    width: 100%;
+  }
+}
 .right button {
-  background-color: #009900;
+  opacity: 0.7;
+  background-image: url("../public/images/beer.png");
+  background-repeat: no-repeat;
+  background-position-x: 98%;
+  background-position-y: center;
+  background-size: 20px;
 }
 .wrong {
   background-color: #990000;
