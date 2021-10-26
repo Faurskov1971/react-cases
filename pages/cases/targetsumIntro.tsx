@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Head from 'next/head';
 import Layout from '../../components/layout';
-import GameContainer from './targetsum/index';
+import GameContainer from '../../components/targetsum/index';
 
 export default function TargetsumIntro() {
   return (
