@@ -1,5 +1,5 @@
 .container {
-  padding: 0 1rem;
+  padding: 1rem 1rem;
 }
 
 .header {
@@ -10,8 +10,9 @@
 
 .backToHome {
   margin: 3rem 0 0;
-  font-size: 7rem;
+  font-size: 4rem;
   margin-right: 1%;
+  padding-top: 2rem;
   background-color: #b4bf5e;
   border-radius: 50%;
   text-align: center;

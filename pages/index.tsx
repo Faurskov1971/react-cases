@@ -45,14 +45,14 @@ export default function Home({
         <h1>My Mission</h1>
         I want to combine 20 years of working experience with the newest technologies and work in a fantastic agile team again.
         <br /><br />
-        I have a good understanding about design, useability, SEO and everything about building interactive elements to web but my focus is on developing interactive frontends.
+        I have a good understanding about design, usability, SEO and everything about building interactive elements to web but my focus is developing interactive frontends.
         <h2>My Tech stack</h2>
         <ul>
           <li>Modern JavaScript</li>
           <li>React</li>
           <li>TypeScript</li>
         </ul>
-        This homepage shows a little bit of what I have developted in theese technologies. Please look at my cases and read little about how I have developed them.
+        This homepage shows a little bit of what I have developed in theese technologies. Please look at my cases and read a little about how I have developed them.
       </section>
     </Layout>
   )

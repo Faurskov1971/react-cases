@@ -47,3 +47,6 @@ h3 {
   text-align: center;
   color: #b4bf5e;
 }
+button:hover {
+  opacity: 0.7;
+}
