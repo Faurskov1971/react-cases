@@ -13,7 +13,7 @@
           point: 200,
           info: "Learning Service!",
           answer_array: ["developed interactive learning elements","sold hardware","updated mainframes"
-          ,"controled projects"]
+          ,"controlled projects"]
         },
         {
           question: "At the agency Kidvertising I...",
@@ -30,8 +30,8 @@
         {
           question: "At Bestseller IT I...",
           point: 500,
-          info: "I learnt bestseller a more interactive and flexible way to think e-learning",
-          answer_array: ["developed interaktive elementer","designed courses","Product Owner","SCRUM Master"]
+          info: "I learnt Bestseller a more interactive and flexible way to think e-learning",
+          answer_array: ["developed interactive elements","designed courses","was Product Owner","was SCRUM Master"]
         }
       ]
     },
@@ -42,7 +42,7 @@
           question: "faurskov.com is developed with...",
           point: 100,
           info: "A React framework",
-          answer_array: ["Next.js","Angular","Vue","Pure JavaScript"]
+          answer_array: ["Next.js","Angular","Vue","pure JavaScript"]
         },
         {
           question: "How is faurskov.com designed?",
@@ -57,10 +57,10 @@
           answer_array: ["DPS - Develop, Preview and Ship","PBR - Plan, Build and Run","MVP - Minimum Viable Product","DRY - Don't Repeat Yourself"]
         },
         {
-          question: "next/image is an Image component that is...",
+          question: "Next/image is an image component that is...",
           point: 400,
           info: "Next.js is helping with a lot of stuff",
-          answer_array: ["helps with all theese things","ensuring your image is responsive on different screen sizes","optimizing your images with a third-party tool or library","only loading images when they enter the viewport"]
+          answer_array: ["helping with all theese things","ensuring your image is responsive on different screen sizes","optimizing your images with a third-party tool or library","only loading images when they enter the viewport"]
         },
         {
           question: "What helps me debug at compile time?",
@@ -71,25 +71,25 @@
       ]
     },
     {
-      category: "Solutions",
+      category: "Legacy",
       question_array: [
         {
-          question: "I developed sudoku to this company",
+          question: "I developed sudoku for this company",
           point: 100,
           info: "One of the most played games in Denmark",
           answer_array: ["spil.tv2.dk","Danfoss","TDC","Grundfos"]
         },
         {
-          question: "I developed an interactive multilanguage christmas calender for this company",
+          question: "I developed an interactive multilanguage christmas calendar for this company",
           point: 200,
-          info: "I made the calender for 15 languages and in three years",
+          info: "I developed the calendar in 15 languages and over three years",
           answer_array: ["Danfoss","Finanssektorens Uddannelsescenter","TDC","Maersk Containere"]
         },
         {
-          question: "Hvad bestod mit iværksætterprojekt, som jeg arbejdede på fra 2015-17, af?",
+          question: "I was a entrepreneur with this project?",
           point: 300,
-          info: "Mit iværksættereventyr teacher-content.com var et læringssite på ni sprog med fokus på viden om verden.",
-          answer_array: ["Læringsspil på ni sprog","En ny og epokegørende betalingsløsning","Tøj til hunde","Et filosofisk univers til børnehavebørn"]
+          info: "Making smart children happy and happy children smart",
+          answer_array: ["learning games","casual Games","advertising games","casino games"]
         },
         {
           question: "Developing e-learning for this company with Henning Dyremose as the CEO",
@@ -98,10 +98,10 @@
           answer_array: ["TDC","Knauf A/S","Aarhus Stiftstidende","Egmont"]
         },
         {
-          question: "Som teknisk ansvarlig for Team e-learning var jeg den drivende kraft i at gøre dette firmas læringsunivers mobilvenligt. Hvilket firma?",
+          question: "I am used to...",
           point: 500,
-          info: "På to år som teknisk ansvarlig fik vi gjort firmaets Content Learning System og de nye kurser mobilvenlige, sprogversionerede og meget mere interaktive.",
-          answer_array: ["Bestseller","TDC","Danfoss","Grundfos"]
+          info: "",
+          answer_array: ["all answers are true","teach companies in IT","lecture students","make online courses"]
         }
       ]
     },
@@ -109,28 +109,28 @@
       category: "Why",
       question_array: [
         {
-          question: "Why use TypeScript?",
+          question: "Why am I using TypeScript?",
           point: 100,
           info: "Strict Types are predictable!",
-          answer_array: ["helps with all theese things","Early spotted bugs","Fast refactoring","Optional static typing"]
+          answer_array: ["it helps with all theese things","early spotted bugs","fast refactoring","optional static typing"]
         },
         {
-          question: "Why use React?",
+          question: "Why am I using React?",
           point: 200,
           info: "",
-          answer_array: ["The main purpose of React is to be fast, scalable, and simple.","It is typesafe","Its a framework that has it all","You can trust Googles developers."]
+          answer_array: ["The main purpose of React is to be fast, scalable, and simple.","It's typesafe","It's a framework that has it all","You can trust Google's developers."]
         },
         {
-          question: "Why use Next.js?",
+          question: "Why am I using Next.js?",
           point: 300,
           info: "",
           answer_array: ["Next.js has all the tools you need to make the Web faster.","Next has a built-in state manager","Next has more plugins than Gatsby","Next has a lot of built-in front pages"]
         },
         {
-          question: "Why use CSS Components and global styles?",
+          question: "Why am I using CSS Components and global styles?",
           point: 400,
           info: "There are so many ways to design in React",
-          answer_array: ["It has built-in support in Next and a good combination of global and local use of CSS","It is the only solution in Next.js","It is the only solution if you wan´t to use Sass","It is the fastest way"]
+          answer_array: ["It has built-in support in Next","It's the only solution in Next.js","It's the only solution if you want to use Sass","It's the fastest way"]
         },
         {
           question: "Why hire Brian Faurskov as your frontend developer?",
