@@ -118,25 +118,25 @@
           question: "Why use React?",
           point: 200,
           info: "",
-          answer_array: ["The main purpose of React is to be fast, scalable, and simple.","It is typesafe","Its a framework that has it all!","You can trust Googles developers."]
+          answer_array: ["The main purpose of React is to be fast, scalable, and simple.","It is typesafe","Its a framework that has it all","You can trust Googles developers."]
         },
         {
           question: "Why use Next.js?",
           point: 300,
-          info: "Jeg har løbet maraton i Paris, London, Berlin og Odense. Før jeg blev en glad løber, cyklede jeg en del og har cyklet Sjælland Rundt, Vettern Rundt og Aarhus-København.",
-          answer_array: ["4","1","2","3"]
+          info: "",
+          answer_array: ["Next.js has all the tools you need to make the Web faster.","Next has a built-in state manager","Next has more plugins than Gatsby","Next has a lot of built-in front pages"]
         },
         {
           question: "Why use CSS Components and global styles?",
           point: 400,
-          info: "Pengene brugte jeg til at købe mig selv fri til at starte mit iværksætterprojekt med læringsspil til folkeskolen.",
-          answer_array: ["400.000 kroner","17.000 og en iPhone","To uger i et sommerhus i Marbella","spilnu.dk fik domænenavnet gratis"]
+          info: "There are so many ways to design in React",
+          answer_array: ["It has built-in support in Next","","",""]
         },
         {
           question: "Why hire Brian Faurskov as your frontend developer?",
           point: 500,
-          info: "Jeg er stolt over, at så mange børn er blevet klogere ved at spille mine spil.",
-          answer_array: ["2.500.000 brugere","1.500.000 brugere","500.000 brugere","4.000.000 brugere"]
+          info: "Experience and dedication matters",
+          answer_array: ["He is an intelligent, curious and hardworking developer","He is young","He is old","He knows the exact tech stack"]
         }
       ]
     }
