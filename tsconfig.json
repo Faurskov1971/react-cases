@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "public/data/connection.js"  ],
+, "pages/cases/quiz/data/connection.js"  ],
   "exclude": [
     "node_modules"
   ]

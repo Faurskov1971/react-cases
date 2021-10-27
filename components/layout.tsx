@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import { FaHome } from 'react-icons/fa';
 const name = 'Brian Faurskov'
-export const siteTitle = 'My React journey...'
+export const siteTitle = 'My React journey...';
 
 export default function Layout({
   children,

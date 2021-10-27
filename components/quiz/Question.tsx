@@ -1,7 +1,6 @@
 import Answer from './Answer';
 import utilStyles from '../../styles/utils.module.css'
 import { useState} from 'react';
-import { AiOutlineCheck } from "react-icons/ai";
 
 interface IQuestion {
   text: string;

@@ -1,9 +1,8 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
-import { getSortedPostsData } from '../lib/posts'
-import Link from 'next/link'
-import { GetStaticProps } from 'next'
+import Head from 'next/head';
+import Layout, { siteTitle } from '../components/layout';
+import utilStyles from '../styles/utils.module.css';
+import Link from 'next/link';
+import BasicModal from '../components/basivModal';
 
 export default function Home({
   allPostsData
@@ -54,14 +53,15 @@ export default function Home({
         </ul>
         This homepage shows a little bit of what I have developed in theese technologies. Please look at my cases and read a little about how I have developed them.
       </section>
+      <section className={utilStyles.paragraph}>
+      <BasicModal
+        teaser="Why & How"
+        head="The framework is Next.js?"
+        why="Next.js gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed."
+        how="I follow the structure in Next with the folders components, pages, public and styles."
+        features={["Next.js is the framework","Git, GitHub and Vercel","Develop, Preview and Ship workflow"]}
+        />    
+      </section>   
     </Layout>
   )
-}
-export const getStaticProps: GetStaticProps = async () => {
-  const allPostsData = getSortedPostsData()
-  return {
-    props: {
-      allPostsData
-    }
-  }
 }

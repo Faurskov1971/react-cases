@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/cases/quizIntro": "pages/cases/quizIntro.js",
-  "/cases/memoryIntro": "pages/cases/memoryIntro.js"
+  "/": "pages/index.js",
+  "/cases/quizIntro": "pages/cases/quizIntro.js"
 }
