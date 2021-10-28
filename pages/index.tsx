@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
-import BasicModal from '../components/basivModal';
+import BasicModal from '../components/basicModal';
 
 export default function Home({
   allPostsData

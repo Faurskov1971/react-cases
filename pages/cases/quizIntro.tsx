@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Layout from '../../components/layout';
 import Game from '../../components//quiz/Game';
-import BasicModal from '../../components/basivModal';
+import BasicModal from '../../components/basicModal';
 
 export default function QuizIntro() {
   return (

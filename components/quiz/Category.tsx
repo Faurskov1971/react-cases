@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Question from './Question';
-import utilStyles from '../../styles/utils.module.css'
+import utilStyles from '../../styles/utils.module.css';
 import { useState } from 'react';
 
 // Se JSON-fils opbygning med Arrays i Arrays

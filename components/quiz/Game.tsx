@@ -2,8 +2,9 @@ import * as React from "react";
 import Head from 'next/head';
 import Category from './Category';
 import { useState } from 'react';
-import {data} from '../../public/data/quizData';
+import { data } from '../../public/data/quizData';
 let jeopardyData = data;
+
 export default function Game() {
   
   const [gamePoint, setGamePoint] = useState<number>(0);  

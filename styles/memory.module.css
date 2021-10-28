@@ -1,0 +1,35 @@
+.game {
+  max-width: 600px;
+  margin: 5% auto;
+}
+.grid {
+  line-height: 0;
+}
+.cell {
+  border: thin solid gray;
+  display: inline-block;
+  height: 80px;
+  max-height: 80px;
+  border-radius: 20%;
+}
+.message {
+  float: left;
+  color: #ddd;
+  margin-top: 1rem;
+}
+.button {
+  float: left;
+  margin-top: 1rem;
+  cursor: pointer;
+  background: rgba(116, 167, 221, 0.5);
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  border: 0;
+}
+.message,
+.button {
+  width: 100%;
+  text-align: center;
+}

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-//import './index.css';
+import memoryStyles from '../../styles/memory.module.css';
 /**
  * GameGenerator
  * - GameSession
@@ -44,7 +44,7 @@ interface MessagesI{
   WON:string,
   LOST:string
 }
-const Messages:MessagesI | any = {
+const Messages:MessagesI | undefined = {
   NEW:        'You will have a few seconds to memorize the blue random cells',
   CHALLENGE:  'Remember these blue cells now',
   PLAYING:    'Which cells were blue?',
@@ -61,7 +61,7 @@ interface CellProps{
 }
 const Cell = ({ 
     width,            // Cellens bredde - antal bredde delt med antal horisontale celler
-    gameStatus,       // Er spillet ikke NEW, så testes forsøget for CORRECT elelr WRONG
+    gameStatus,       // Er spillet ikke NEW, så testes forsøget for CORRECT eller WRONG
     isChallenge,      // Om cellen bør vælges (Challenge-cell)
     isPicked,         // Om cellen er valgt
     onClick           // Nedarvet funktion
@@ -87,7 +87,7 @@ const Cell = ({
   }
   return (
     <div
-      className = "cell"
+      className = {memoryStyles.cell}
       style     = {{ width: `${width}%`, backgroundColor: cellStatus }}
       onClick   = {onClick}
     />
@@ -129,11 +129,11 @@ const Footer = ({
   return (
     // React.Fragment <>
     <>
-      <div className="message">{Messages[gameStatus]}</div>
+      <div className = {memoryStyles.message}>{Messages[gameStatus]}</div>
 {      /*
         Her bruger jeg en funktion til at udregne indholdet af knappen.
        */}
-      <div className="button">{buttonAreaContent()}</div>
+      <div className = {memoryStyles.button}>{buttonAreaContent()}</div>
     </>
   );
 };
@@ -229,8 +229,8 @@ const GameSession = ({
   };  
   
   return (
-    <div className="game">
-      <div className="grid">
+    <div className = {memoryStyles.game}>
+      <div className = {memoryStyles.grid}>
         {cellIds.map(cellId => (
           <Cell
             // unikt ID til hver celle

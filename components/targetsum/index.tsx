@@ -1,4 +1,5 @@
 import React from 'react';
+import targetsumStyles from '../../styles/targetsum.module.css';
 
 var _ = require('lodash');
 
@@ -37,7 +38,7 @@ class Number extends React.PureComponent<NumberProps> {
   render() {
     return (
       <div
-        className = "number"
+        className = {targetsumStyles.number}
         style     = {{ opacity: this.props.clickable ? 1 : 0.3 }}
         onClick   = {this.handleClick}
       >
@@ -137,14 +138,14 @@ class Game extends React.Component<GameProps,GameState> {
   render() {
     const { gameStatus, remainingSeconds } = this.state;
     return (
-      <div className="game">
+      <div className={targetsumStyles.game}>
         <div
-          className="target"
+          className={targetsumStyles.target}
           style={{ backgroundColor: colors[gameStatus] }}
         >
           {gameStatus === 'new' ? 'TARGET' : this.target}
         </div>
-        <div className="challenge-numbers">
+        <div className={targetsumStyles.challengeNumbers}>
           {this.challengeNumbers.map((value, index) =>
             <Number
               key         = {index}
@@ -155,21 +156,21 @@ class Game extends React.Component<GameProps,GameState> {
             />
           )}
         </div>
-        <div className="help">
+        <div className={targetsumStyles.help}>
           Pick {this.props.answerSize} numbers that sum to the
           target in {this.props.initialSeconds} seconds
         </div>
-        <div className="footer">
+        <div className={targetsumStyles.footer}>
           {gameStatus === 'new' &&
-            <button onClick={this.startGame}>Start</button>
+            <button className={targetsumStyles.button} onClick={this.startGame}>Start</button>
           }
 
           {gameStatus === 'playing' &&
-            <div className="timer-value">{remainingSeconds}</div>
+            <div className={targetsumStyles.timerValue}>{remainingSeconds}</div>
           }
 
           {['won', 'lost'].includes(gameStatus) &&
-            <button onClick={this.props.onPlayAgain}>
+            <button className={targetsumStyles.button} onClick={this.props.onPlayAgain}>
               Play Again
             </button>
           }
